@@ -176,6 +176,6 @@ git rebase master
 13. Complete Part 2. Then, come back here and answer the following:
 Report your experience of submitting the Part 2. Please, include the steps you followed, the commands you used, and the hurdles you faced (within the file you created for the **Part 1**).
 ```
-
+The experience was overall good. I created a file named my name with the .md extension. I opened the cheatsheet for md file commands, and added the tile, venue, number of pages, and three main outcomes of the research paper I had read. I also added the link to the research paper. Then, I committed the md file and created a pull request to check the conflicts. The commands included pulling the repo, simple file creation, file edit, and commit changes. There were no hurdles faced in particular to which I couldn't find help.
 
 ```
