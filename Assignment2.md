@@ -128,7 +128,7 @@ if __name__ == "__main__":
 [4, 9, 4, 9]
 
 ```
-[https://github.com/sv742/INF502/blob/main/code/list_mangler.py](Code Link)
+[Code Link](https://github.com/sv742/INF502/blob/main/code/list_mangler.py)
 
 **3. Write a function with the following signature:** `grade_calc(grades_in, to_drop)`.
 
