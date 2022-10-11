@@ -80,7 +80,7 @@ if __name__ == "__main__":
     main()
 ```
 
-[Code Link](https://github.com/sv742/INF502/blob/main/code/pythagoreanTheorem.py)
+[Code Link](https://github.com/sv742/INF502/blob/main/code/A3Q1.py)
 
 **Problem 2: Periodic Table**
 
@@ -301,4 +301,4 @@ if __name__ == "__main__":
     main()
 ```
 
-[Code Link](https://github.com/sv742/INF502/blob/main/code/list_mangler.py)
+[Code Link](https://github.com/sv742/INF502/blob/main/code/A3Q2.py)
