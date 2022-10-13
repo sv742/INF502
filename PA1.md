@@ -238,6 +238,94 @@ ACTGATCAC
 TTAGCTCGA
 ```
 
+## Approach 1
+
+## Code
+
+```python
+
+def fetchContigousChain(self,seq1,seq2):
+
+        self.continous_chain=list()
+        index_chain=list()
+        try:
+            for i in range(0,len(seq1)):
+            
+                if(seq1[i]==seq2[i]):
+                    
+                    index_chain.append(i)
+        except NameError:
+            raise
+
+
+        try:
+            for i in range(0,len(index_chain),2):
+                if i+1 <len(index_chain):
+
+                    if(index_chain[i+1]-(index_chain[i])==1):
+                        self.continous_chain.append(seq1[index_chain[i]])
+                        self.continous_chain.append(seq1[index_chain[i+1]])
+                    
+        except NameError:
+            raise
+
+```
+
+## Output
+
+```
+Enter file 1 name: file1.txt
+Enter file 2 name: file2.txt
+Enter Max Shift: 4
+Sequence 1->  ACTGATCAC
+Sequence 2->  TTAGCTCGA
+Enter approach you want to choose:
+max score or max chain : max chain
+Max chain :  ['C', 'T']
+Found at the following sequences: 
+---ACTGATCAC
+TTAGCTCGA---
+
+```
+
+## Approach 2
+
+## Code
+
+```python
+
+def scoreCalculation(self,sq1,sq2):
+
+
+        score=0
+        
+        for i in range(0,len(sq1)):
+            if sq1[i]==sq2[i]:
+                score+=1
+            
+        
+        return score
+```
+
+## Output
+
+```
+Enter file 1 name: file1.txt
+Enter file 2 name: file2.txt
+Enter Max Shift: 4
+Sequence 1->  ACTGATCAC
+Sequence 2->  TTAGCTCGA
+Enter approach you want to choose:
+max score or max chain : max score
+Max Score:  4
+Found at the following sequences: 
+ACTGATCAC--
+--TTAGCTCGA
+
+````
+
+
+
 # 4. Discuss the hurdles and benefits of developing each approach, and how did you handle them:
 
 The hurdle I face by implementing approaches are below:
